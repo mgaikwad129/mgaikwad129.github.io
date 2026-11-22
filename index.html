@@ -4,38 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>In Progress</title>
+  <title>Manali Gaikwad</title>
   <style>
     body {
       margin: 0;
       min-height: 100vh;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
       font-family: system-ui, -apple-system, sans-serif;
       background: #f7f7f5;
       color: #222;
       text-align: center;
     }
+    h1 { margin: 0; padding: 32px 16px 0; font-size: 1.8rem; }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     .spinner {
       width: 40px;
       height: 40px;
-      margin: 0 auto 24px;
+      margin-bottom: 24px;
       border: 4px solid #ddd;
       border-top-color: #444;
       border-radius: 50%;
       animation: spin 1s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
-    h1 { margin: 0 0 8px; font-size: 1.8rem; }
     p { margin: 0; color: #666; }
   </style>
 </head>
 <body>
+  <h1>Manali Gaikwad</h1>
   <main>
     <div class="spinner"></div>
-    <h1>In Progress</h1>
-    <p>This page is being worked on. Check back soon.</p>
+    <p>I am working on building this. Check back soon.</p>
   </main>
 </body>
 </html>
